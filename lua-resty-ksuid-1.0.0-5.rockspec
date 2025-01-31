@@ -1,5 +1,5 @@
 package = "lua-resty-ksuid"
-version = "1.0.0-2"
+version = "1.0.0-5"
 source = {
     url = "git://github.com/maqtulio/lua-resty-ksuid",
     tag = "v1.0.0"
@@ -20,6 +20,6 @@ dependencies = {
 build = {
     type = "builtin",
     modules = {
-        ["ksuid"] = "src/ksuid.lua"
+        ["ksuid"] = "src/resty/ksuid.lua"
     }
 }
