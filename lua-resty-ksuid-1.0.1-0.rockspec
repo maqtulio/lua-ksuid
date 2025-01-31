@@ -1,8 +1,8 @@
 package = "lua-resty-ksuid"
-version = "1.0.0-7"
+version = "1.0.1-0"
 source = {
     url = "git://github.com/maqtulio/lua-resty-ksuid",
-    tag = "v1.0.0"
+    tag = "v1.0.1"
 }
 description = {
     summary = "KSUID Generator for Lua",
