@@ -1,7 +1,7 @@
 package = "lua-resty-ksuid"
-version = "1.0.0-1"
+version = "1.0.0-2"
 source = {
-    url = "https://github.com/maqtulio/lua-resty-ksuid",
+    url = "git://github.com/maqtulio/lua-resty-ksuid",
     tag = "v1.0.0"
 }
 description = {
@@ -10,7 +10,7 @@ description = {
         A KSUID (K-Sortable Unique Identifier) generator for Lua.
         Uses OpenSSL for cryptographic randomness and Base62 encoding.
     ]],
-    homepage = "https://github.com/maqtulio/lua-resty-ksuid",
+    homepage = "git://github.com/maqtulio/lua-resty-ksuid",
     license = "MIT"
 }
 dependencies = {
