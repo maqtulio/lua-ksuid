@@ -1,7 +1,7 @@
 package = "lua-resty-ksuid"
 version = "1.0.1-0"
 source = {
-    url = "git://github.com/maqtulio/lua-resty-ksuid",
+    url = "git+https://github.com/maqtulio/lua-resty-ksuid",
     tag = "v1.0.1"
 }
 description = {
