@@ -1,6 +1,6 @@
-# lua-ksuid
+# lua-resty-ksuid
 
-lua-ksuid is a Lua implementation of **KSUID (K-Sortable Unique Identifier)**, a globally unique identifier that is **time-sortable** and **highly collision-resistant**. This module leverages **OpenResty's OpenSSL bindings** to generate **cryptographically secure random bytes** for uniqueness.
+lua-resty-ksuid is a Lua implementation of **KSUID (K-Sortable Unique Identifier)**, a globally unique identifier that is **time-sortable** and **highly collision-resistant**. This module leverages **OpenResty's OpenSSL bindings** to generate **cryptographically secure random bytes** for uniqueness.
 
 ## Features
 - Generates **20-byte KSUIDs** encoded in **Base62**
@@ -11,7 +11,7 @@ lua-ksuid is a Lua implementation of **KSUID (K-Sortable Unique Identifier)**, a
 ## Installation
 Install via **LuaRocks**:
 ```sh
-luarocks install lua-ksuid
+luarocks install lua-resty-ksuid
 ```
 
 Or manually clone the repository and include `ksuid.lua` in your project.
